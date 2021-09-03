@@ -1,0 +1,130 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.val {
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.val h3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.id {
+    min-width: 50px;
+}
+
+.firstName {
+    min-width: 150px;
+}
+
+.lastName {
+    min-width: 150px;
+}
+
+.email {
+    min-width: 270px;
+}
+
+.list-title-group {
+    display: flex;
+    flex-direction: row;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.list-title-group:first-child {
+    margin-left: 30px;
+}
+
+.list {
+    font-family: 'Inter', sans-serif;
+}
+
+.modal-bar-background {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    bottom: 0%;
+    top: 0%;
+}
+
+.wrap-bar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-bar {
+    position: fixed;
+    bottom: 0%;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 50vh;
+    height: 60%;
+    margin-top: 20vh;
+}
+
+.modal-bar-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.modal-bar-content {
+    font-family: 'Inter', sans-serif;
+}
+
+.btn {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: -6px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white(0, 0, 0);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #2EE59D;
+    box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+    color: rgb(0, 0, 0);
+    transform: translateY(-7px);
+}
+
+.input {
+    width: 165px;
+    padding: 8px 12px;
+    margin: -8px 4px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f8f8f8;
+    color: rgb(0, 0, 0);
+    border: rgb(55, 63, 61) 1px solid;
+}
+
+.input::placeholder {
+    color: #252323;
+}
